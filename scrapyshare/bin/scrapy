@@ -1,0 +1,9 @@
+#!/Users/byeonseongjin/Documents/Python/Scrapy/scrapyshare/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'Scrapy==1.1.0rc3','console_scripts','scrapy'
+__requires__ = 'Scrapy==1.1.0rc3'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('Scrapy==1.1.0rc3', 'console_scripts', 'scrapy')()
+)
